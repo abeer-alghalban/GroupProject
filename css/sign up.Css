@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'my font';
+    text-transform: capitalize;
+}
+@font-face {
+    font-family:'my font';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'my font';
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+:root{
+    --mainbakeground:rgba(219, 68, 68, 1);
+     --maincolor: rgba(219, 68, 68, 1);
+     --background-color: rgba(245, 245, 245, 1);
+     --yelloColor:  #FFAD33;
+}
+.contanir{
+    margin: 2% 4%;
+}
+.summerSale{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: black;
+    padding: 13px;
+}
+.summerSale p{
+    padding-right: 8px;
+    text-align: center;
+    color: white;
+    padding-left: 28%;
+}
+.summerSale a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ a{
+    text-transform:capitalize ;
+    text-decoration: none;
+    color: black;
+}
+ nav ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+ul li :hover{
+    color: var(--maincolor);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lookingFor{
+    display: flex;
+     background-color: rgba(245, 245, 245, 1);
+     padding: 11px;
+     border-radius: 7px;
+     /* margin-left: 20px; */
+     margin-right: 10px;
+}
+.lookingFor p{
+    padding-right: 19px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 7%;
+  }
+.section .part2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section .img-1 {
+    width: 100%;
+}
+.section .img-1  img{
+    width: 100%;
+}
+    .section .part2 form h4{
+        font-weight: lighter;
+        font-size: 50px;
+        /* padding: 0; */
+    }
+    .section .part2 form p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .section .part2 form input{
+         border-top: none;
+         border-left: none;
+         border-right: none;
+         border-bottom: 1px solid #000;
+         margin-bottom: 40px;
+         font-size: 15px;
+         color: black;
+         /* padding: 10px; */
+    }
+
+    .section .part2 form input:focus{
+        outline: none;
+    }
+
+   .section form .btn_Sub{
+        padding: 20px;
+        text-align: center;
+        background-color: var(--mainbakeground);
+        border: none;
+        border-radius: 4px;
+    }
+    .section form .btn_Sub a{
+        color: white;
+        font-size: 20px;
+    }
+    button a {
+        color: black;
+    }
+    .btn-icon{
+        border: 1px solid black;
+        border-radius: 4px;
+        background-color: transparent;
+        padding: 20px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .btn-icon a i {
+        padding-right: 10px;
+    }
+    .alredy{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .alredy a{
+        color: black;
+    }
+    span{
+        padding-left: 5px;
+    }
+    .parfan-img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 5%;
+    }
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       gap: 22px;
+    }
+    .left-side-under{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer{
+        background-color: #000000;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .links{
+        color: #FAFAFA;;
+        line-height: 2.9;
+    }
+    .links a{
+        color: #FAFAFA;;
+    }
+    form input{
+        background-color: transparent;
+        border: 2px solid #FAFAFA;;
+        padding: 10px 7px 10px 10px;
+        border-radius: 4px;
+        color: #FAFAFA;;
+    }
+    .app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       gap: 3px;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: space-between;
+    }
+    h5{
+        font-size: 24px;
+    }
+    .footer .Copyright{
+        color: rgb(84, 81, 81);
+        padding-top: 2%;
+        text-align: center;
+    }
+    .links-save{
+        color: rgb(139, 132, 132);
+        font-size: 12px;
+    }
+    .links-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+    }
